@@ -1,5 +1,5 @@
 # replace-all-js
-js replaceAll achieve
+js replaceAll achieve, use of regex
 # use
 ```$xslt
 const { replaceAll } = require('replace-all-js');
