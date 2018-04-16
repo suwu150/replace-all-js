@@ -1,7 +1,7 @@
 /**
  * Created by jkwu on 17-11-29.
  */
-const { replaceAll } = require('../index');
+const { isString } = require('../src/isString');
 
 const str = 'dscdcsdsc,ds,cds,dcs,cds,c,ds ' +
   'vddsvdsvds' +
@@ -10,6 +10,5 @@ const str = 'dscdcsdsc,ds,cds,dcs,cds,c,ds ' +
   'vsvds,vdsvds\n' +
   ',vdsvds' +
   'vds,vdsvdsv';
-const result = replaceAll(str, ',', '--');
 
-console.log(result);
+console.log(isString(str));
