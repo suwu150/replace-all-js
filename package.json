@@ -1,6 +1,6 @@
 {
   "name": "replace-all-js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "js replaceAll",
   "main": "index.js",
   "scripts": {
