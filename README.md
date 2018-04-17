@@ -1,5 +1,9 @@
 # replace-all-js
 js replaceAll achieve, use of RegExp
+## 1.安装
+```$xslt
+npm i replace-all-js --save
+```
 # use
 
 ####1)replace String
