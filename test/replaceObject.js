@@ -4,17 +4,16 @@
 const { replaceAll } = require('../index');
 
 var object = {
-  10: 'a',
-  age: '20',
-  20: {
+  label: {
     nuber1: 'jkuw',
     class: 'class4',
     number2: 'jack',
-    acount: '400'
+    acount: {
+      nuber1: 'jkuw',
+      class: 'class4',
+      number2: 'jack',
+    },
   },
-  LN:'里宁',
-  7: 'c',
-  sex: 'male',
   name: 'jkwu',
   group: {
     name: '永恒',
@@ -23,6 +22,19 @@ var object = {
   }
 };
 
-const result = replaceAll(object, 'name', { computer: 'mac Pro' });
 
+var fs = require('fs');
+
+// 同步保存json文件
+function saveFileSync(jsonObj, filePath) {
+  try {
+    const data = JSON.stringify(jsonObj, null, 2);
+    fs.writeFileSync(filePath, data);
+  } catch (err) {
+    console.log('文件保存失败:' + err);
+    throw err;
+  }
+}
+const result = replaceAll(object, 'number2', { computer: 'mac Pro', class: '计算机' });
+saveFileSync(result, 'sortedObjectResult.json');
 console.log(result);
