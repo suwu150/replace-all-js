@@ -1,5 +1,7 @@
 # replace-all-js
 js replaceAll achieve, use of RegExp
+
+
 地址[https://github.com/suwu150/replace-all-js](https://github.com/suwu150/replace-all-js)
 ## 1.安装
 ```$xslt
