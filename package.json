@@ -1,7 +1,7 @@
 {
   "name": "replace-all-js",
-  "version": "0.0.6",
-  "description": "js replaceAll",
+  "version": "0.0.7",
+  "description": "js replaceAll for String and Object",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,15 @@
     "url": "git+https://github.com/suwu150/replace-all.git"
   },
   "author": "jkwu",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/suwu150/replace-all/issues"
   },
+  "keywords": [
+    "replace-all",
+    "ecmascript",
+    "javaScript",
+    "replace"
+  ],
   "homepage": "https://github.com/suwu150/replace-all#readme"
 }
